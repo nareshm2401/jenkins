@@ -8,21 +8,21 @@ pipeline
 					{
 					steps
 						{
-							dir
+						echo "Hello Git"
 						}
 					}
 					stage('maven-build')
 				{
 					steps
 					{
-						dir
+					echo "Hello Maven Code"
 					}
 				}
 					stage('deploy')
 					{
 					steps
 					{
-						dir
+						echo "Hello deployment"
 					}
 			
 			}	
