@@ -1,0 +1,31 @@
+pipeline
+{
+	agent any
+	
+		stages
+			{
+				stage('git-code')
+					{
+					steps
+						{
+							dir
+						}
+					}
+					stage('maven-build')
+				{
+					steps
+					{
+						dir
+					}
+				}
+					stage('deploy')
+					{
+					steps
+					{
+						dir
+					}
+			
+			}	
+	
+	}
+}
