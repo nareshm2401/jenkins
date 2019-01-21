@@ -18,7 +18,7 @@ pipeline
 					echo "Hello Maven Code"
 					}
 				}
-					stage('deploy')
+					stage('Hello deploy')
 					{
 					steps
 					{
